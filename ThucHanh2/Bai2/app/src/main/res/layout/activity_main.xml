@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.msi.btandroid_2.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtNhapSDT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhap so dien thoai can goi"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/edtNhapSDT"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:numeric="integer"
+        />
+    <Button
+        android:id="@+id/btnGoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goi"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
